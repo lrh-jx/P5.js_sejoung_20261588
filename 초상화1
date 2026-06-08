@@ -1,0 +1,50 @@
+// 색은 aspose 색상 변환기 사이트 활용했습니다..
+function setup() {
+  createCanvas(600, 400);
+  background('black');
+  
+  function setup() {
+  createCanvas(400, 400);
+  textSize(20);  // 텍스트 크기 설정
+  fill(0);       // 텍스트 색상 설정 (검정색)
+}
+
+function draw() {
+  background(200);
+  text("X: " + mouseX + "     Y: " + mouseY, 0, 20);  // 텍스트 출력
+  
+  // 아래에 본인의 코드 입력
+  
+}
+
+
+  // 얼굴
+  fill(255, 182, 193);
+  ellipse(280, 210, 230, 230);
+
+  // 앞머리
+  fill(255, 105, 180);
+  rect(200, 100, 200, 70);
+
+  // 단발 머리
+  rect(160, 160, 70, 130);
+  rect(360, 140, 50, 150);
+
+  // 눈 코
+  fill(255, 20, 147);
+  ellipse(240, 150, 25, 25);
+  ellipse(350, 170, 15, 15);
+  ellipse(300, 250, 20, 20);
+
+  // 배경 원
+  fill(255, 192, 203);
+  ellipse(80, 70, 70, 70);
+  ellipse(520, 120, 40, 40);
+  ellipse(100, 320, 50, 50);
+  ellipse(500, 300, 60, 60);
+
+  // 배경 선
+  stroke(255, 105, 180);
+  line(0, 60, 600, 40);
+  line(0, 340, 600, 360);
+}
